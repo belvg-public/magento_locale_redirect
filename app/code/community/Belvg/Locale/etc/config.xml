@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BelVG LLC.
+ * @category   Belvg
+ * @package    Belvg_Locale
+ * @author Pavel Novitsky <pavel@belvg.com>
+ */
+ -->
+<config>
+    <frontend>
+        <events>
+			<controller_action_predispatch>
+				<observers>
+					<check_locale>
+						<type>singleton</type>
+						<class>locale/observer</class>
+						<method>checkLocale</method>
+					</check_locale>
+				</observers>
+			</controller_action_predispatch>
+        </events>
+    </frontend>
+	<global>
+        <helpers>
+            <locale>
+                <class>Belvg_Locale_Helper</class>
+            </locale>
+        </helpers>
+        <models>
+            <locale>
+                <class>Belvg_Locale_Model</class>
+            </locale>
+        </models>
+	</global>
+</config>

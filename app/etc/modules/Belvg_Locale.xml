@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * BelVG LLC.
+ * @category   Belvg
+ * @package    Belvg_Locale
+ * @author Pavel Novitsky <pavel@belvg.com>
+ */
+ -->
+<config>
+    <modules>
+        <Belvg_Locale>
+            <active>true</active>
+            <codePool>community</codePool>
+            <version>1.0.0</version>
+        </Belvg_Locale>
+    </modules>
+</config>
+
