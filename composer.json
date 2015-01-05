@@ -1,0 +1,18 @@
+{
+    "name": "belvg-public/magento_locale_redirect",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Magento extension for redirecting users to the store according to the client's Accept Language header",
+    "authors":[
+        {
+            "name":"Pavel Novitsky",
+            "email":"lugebox@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:belvg-public/magento_locale_redirect.git"
+        }
+    ]
+}
